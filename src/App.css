@@ -1,6 +1,18 @@
-.App-header {
-  background-color: #282c34;
+.App-header{
+  font-family: 'Noto Sans JP', sans-serif;
+  overflow: hidden;
+  background-color: #000000;
+  font-weight: 550;
+}
+.App-header a{
+  float:right;
+  text-align: center;
+  padding: 12px;
   text-decoration: none;
+  color:white;
+}
+a:hover{
+  background-color: rgba(255, 0, 0, 0.827);
 }
 
 
