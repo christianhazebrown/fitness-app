@@ -1,17 +1,25 @@
+/* ---------Adjustments for....----------------------*/
+
+/* ---------Adjustments for the class of .App-header in App.js----------------------*/
 .App-header{
   font-family: 'Noto Sans JP', sans-serif;
   overflow: hidden;
   background-color: #000000;
   font-weight: 550;
+  height: 50px;
 }
+/* ----------Adjustments for the class .App-header of a tag in App.js--------------- */
 .App-header a{
   float:right;
   text-align: center;
   padding: 12px;
+  padding-top: 15px;
   text-decoration: none;
   color:white;
+  height: 50px;
 }
-a:hover{
+/* ---------Adjustments for the class .App-header of a of hover class in App.js----------------------*/
+.App-header a:hover{
   background-color: rgba(255, 0, 0, 0.827);
 }
 
